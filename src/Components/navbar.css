@@ -1,0 +1,45 @@
+.navbar-brand  {
+    font-size: 1.8rem;
+    font-weight: bold;
+    /* This will set the font size to 1.5rem on all devices */
+  
+    @media (max-width: 576px) {
+      font-size: 1rem;
+      font-weight: bold;
+      /* This will set the font size to 1rem on devices smaller than 576px (mobile devices) */
+    }
+  }
+
+  /* .navbar .search-box {
+    position: absolute;
+    right: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar .search-box {
+      position: fixed;
+      right: 16px;
+    }
+  } */
+  
+
+  .cart-logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .text-center {
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:brown;
+    text-shadow: 1px 1px pink;
+  }
+
+  @media screen and (max-width: 600px) {
+    .text-center {
+      font-size: 4vw;
+    }
+  }
+  
+  
